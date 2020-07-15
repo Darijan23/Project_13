@@ -24,6 +24,10 @@ made based on the Darknet framework available at: https://github.com/AlexeyAB/da
 
 **Segmentation** - dividing a picture into segments that represent objects or their parts, sorts pixels into larger components [https://missinglink.ai/guides/computer-vision/image-segmentation-deep-learning-methods-applications/]
 
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/PMhwm6Z/example4.jpg" alt="example4" style="width:400px"></a>
+
+[http://ronny.rest/tutorials/module/seg_01/segmentation_01_intro/]
+
 ### YOLO - You Only Look Once
 Yolo is a state-of-the-art real time object detection system that works as followed:
 1. Single neural network is applied to the full image
@@ -84,20 +88,20 @@ Task 2: Multiple people to be detected​
 
 Task 3: Evaluating detection performance  -average precision​
 - We evaluated the performance of the YOLOv4 model on thermal images with a model trained only on the MS COCO data set and a model that was trained on 60% of the obtained thermal images by knowledge transfer
-- Detection enhancement present for each metric: 
+- Detection enhancement for each metric: 
   - AO from 15% to 54%
   - AP50 from 28% to 99% 
   - AP75 from 10% to 50% ​
-  - AP scales: from 2% to 40%, 
+  - APs from 2% to 40%, 
   - APm 13% na 54%
   - APL 52% na 61%​​
 
-Even 60% of images training with the UNIRI-TID model lead to great results
+Even 60% of images training with the UNIRI-TID model led to great results
 
 ### Successful result example
 
-<a href="https://ibb.co/cDCwBc7"><img src="https://i.ibb.co/zG7FMh0/det347.jpg" alt="det347" border="0"></a>
+<a href="https://ibb.co/cDCwBc7"><img src="https://i.ibb.co/zG7FMh0/det347.jpg" alt="det347" style="width:300px"></a>
 
 ### Unsuccessful result example
 
-<a href="https://ibb.co/r6SJ128"><img src="https://i.ibb.co/xj0QRq9/det240.jpg" alt="det240" border="0"></a>
+<a href="https://ibb.co/r6SJ128"><img src="https://i.ibb.co/xj0QRq9/det240.jpg" alt="det240" style="width:300px"></a>
