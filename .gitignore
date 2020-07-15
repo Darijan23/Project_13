@@ -9,7 +9,6 @@
 *.dll
 *.lib
 *.dylib
-*.weights
 mnist/
 caffe/
 grasp/
