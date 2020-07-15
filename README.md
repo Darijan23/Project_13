@@ -100,8 +100,8 @@ Even 60% of images training with the UNIRI-TID model led to great results
 
 ### Successful result example
 
-<a href="https://ibb.co/cDCwBc7"><img src="https://i.ibb.co/zG7FMh0/det347.jpg" alt="det347" style="width:300px"></a>
+<img src = "https://i.ibb.co/zG7FMh0/det347.jpg" width="300"/>
 
 ### Unsuccessful result example
 
-<a href="https://ibb.co/r6SJ128"><img src="https://i.ibb.co/xj0QRq9/det240.jpg" alt="det240" style="width:300px"></a>
+<img src = "https://i.ibb.co/xj0QRq9/det240.jpg" width="300"/>
