@@ -44,6 +44,8 @@ Thumbs.db
 # IDE generated #
 .vs/
 .vscode/
+.idea/
+venv/
 
 # Managed by CMake
 src/version.h
