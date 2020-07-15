@@ -9,6 +9,7 @@
 *.dll
 *.lib
 *.dylib
+*.weights
 mnist/
 caffe/
 grasp/
@@ -31,7 +32,6 @@ build/detect_cuda_compute_capabilities.cu
 build/.ninja_deps
 build/.ninja_log
 build/Makefile
-*.weights
 
 # OS Generated #
 .DS_Store*
