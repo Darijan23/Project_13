@@ -46,6 +46,7 @@ Thumbs.db
 .vscode/
 .idea/
 venv/
+__pycache__/
 
 # Managed by CMake
 src/version.h
