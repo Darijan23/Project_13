@@ -94,3 +94,10 @@ Task 3: Evaluating detection performance  -average precision​
 
 Even 60% of images training with the UNIRI-TID model lead to great results
 
+### Successful result example
+
+<a href="https://ibb.co/cDCwBc7"><img src="https://i.ibb.co/zG7FMh0/det347.jpg" alt="det347" border="0"></a>
+
+### Unsuccessful result example
+
+<a href="https://ibb.co/r6SJ128"><img src="https://i.ibb.co/xj0QRq9/det240.jpg" alt="det240" border="0"></a>
