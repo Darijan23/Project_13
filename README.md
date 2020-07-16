@@ -172,5 +172,3 @@ Number of detected objects: 3892 (tp:3658, fp:234)​
 
 ## Conclusion
 We had to make a person detector for infrared images. We decided to do that with YOLO v4 and the Darknet framework because it seemed the fastest and most accurate, and it gave better results than we expected.
-=======
->>>>>>> efd3393ad8e1045c49f3eebfa8b8613b59e07c0c
