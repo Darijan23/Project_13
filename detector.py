@@ -4,10 +4,10 @@ import cv2
 import darknet
 import glob
 
-#lokacija slika za detekciju
-ulazna_mapa = "./data/input/"
-#lokacija detektiranih slikam
-izlazna_mapa = "./data/output/"
+#location of the input set
+input_folder = "./data/input/"
+#location of the output folder
+output_folder = "./data/output/"
 
 def convertBack(x, y, w, h):								# Convert from center coordinates to bounding box coordinates
     xmin = int(round(x - (w / 2)))
@@ -35,7 +35,8 @@ def cvDrawBoxes(detections, img):
         person_detection += 1
 
     return img
-    #=================================================================#
+
+#=================================================================#
 
 
 netMain = None
@@ -110,17 +111,17 @@ def YOLO(image_list):
         #print(exif_data)
         #======================================================
 
-        filename = izlazna_mapa + "det" + str(i) + ".jpg"
+        filename = output_folder + "det" + str(i) + ".jpg"
         cv2.imwrite(filename, image)
         #cv2.waitKey(0)
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-	#================================================================
+    #================================================================
     # Purpose : Get the list of Input Image Files
     #================================================================
-    image_list = glob.glob(ulazna_mapa + "*.jpg")			#  Get list of Images
-    print("Ukupno %d slika za detekciju.",len(image_list))			#  Get list of Images
+    image_list = glob.glob(input_folder + "*.jpg")			#  Get list of Images
+    print("Total %d images for detection.",len(image_list))		#  Get list of Images
     print(image_list)
     #=================================================================#
     YOLO(image_list)
