@@ -8,7 +8,6 @@ made based on the Darknet framework available at: https://github.com/AlexeyAB/da
   - [About the project](#about-the-project)
   - [Basic Terms](#basic-terms)
   - [YOLO - You Only Look Once](#yolo---you-only-look-once)
-  - [Metrics](#metrics)
   - [Evaluation metrics](#evaluation-metrics)
   - [Database](#database)
   - [Training](#training)
@@ -53,20 +52,17 @@ Yolo is a state-of-the-art real time object detection system that works as follo
 
 [https://pjreddie.com/darknet/yolo/]
 
-## Metrics
+## Evaluation metrics
 AP-The average precision over all 10 IoU thresholds (i.e., [0.5:0.05:0.95]) of all object categories​
 
 APIOU = 0.50 - The average precision over all object categories when the IoU overlap with ground truth is larger than 0.50​
 
 APIOU = 0.75 - The average precision over all object categories when the IoU overlap with ground truth is larger than 0.75​
 
-​
-
 MS COCO original script for calculation [https://github.com/cocodataset/cocoapi]​
 
 Script [https://github.com/Cartucho/mAP] for IoU display on selected images​
 
-## Evaluation metrics
 IoU (intersect over union) - average intersect over union of objects and detections for a certain threshold
 
 mAP (mean average precision) - mean value of average precisions for each class
@@ -95,8 +91,6 @@ In .cfg file for training we set the resolution grid:
 
 Using the transfer learning, YOLOv4 model pre-trained on MS COCO [] dataset, we trained  on thermal images for about 5 hours​
 
-### Realization of tasks
-
 ## Realizaion of tasks
 Task 1: Recognition and localization of a person
 - We made a person detection script. It took images from an input folder and after YOLOv4 detection saved images with detection markers into an output folder
@@ -113,8 +107,6 @@ Task 3: Evaluating detection performance  -average precision​
   - APs from 2% to 40%, 
   - APm from 13% to 54%
   - APL from 52% to 61%​​
-
-Even 60% of images training with the UNIRI-TID model led to great results
 
 ### SuccSuccessful result example
 
