@@ -13,7 +13,7 @@ made based on the Darknet framework available at: https://github.com/AlexeyAB/da
   - [Database](#database)
   - [Training](#training)
   - [Realizaion of tasks](#realizaion-of-tasks)
-    - [SuccSuccessful result example](#succsuccessful-result-example)
+    - [Successful result example](#succsuccessful-result-example)
     - [Unsuccessful result example](#unsuccessful-result-example)
   - [Results](#results)
     - [Detection results of a YOLOv4 model trained only on the MS COCO data set​](#detection-results-of-a-yolov4-model-trained-only-on-the-ms-coco-data-set)
