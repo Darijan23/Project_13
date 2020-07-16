@@ -95,10 +95,7 @@ In .cfg file for training we set the resolution grid:
 
 Using the transfer learning, YOLOv4 model pre-trained on MS COCO [] dataset, we trained  on thermal images for about 5 hours​
 
-<<<<<<< HEAD
-=======
 ### Realization of tasks
->>>>>>> efd3393ad8e1045c49f3eebfa8b8613b59e07c0c
 
 ## Realizaion of tasks
 Task 1: Recognition and localization of a person
@@ -126,7 +123,6 @@ Even 60% of images training with the UNIRI-TID model led to great results
 ### Unsuccessful result example
 
 <img src = "https://i.ibb.co/xj0QRq9/det240.jpg" width="300"/>
-<<<<<<< HEAD
 
 ## Results
 ### Detection results of a YOLOv4 model trained only on the MS COCO data set​
