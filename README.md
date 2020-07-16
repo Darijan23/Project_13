@@ -99,7 +99,7 @@ Task 2: Multiple people to be detected​
 - Additionaly, along with finding bounding boxes and confidence scores, we added code to count the number of people on an image
 
 Task 3: Evaluating detection performance  -average precision​
-- We evaluated the performance of the YOLOv4 model on thermal images with a model trained only on the MS COCO data set and a model that was trained on 60% of the obtained thermal images by knowledge transfer
+- We evaluated the performance of the YOLOv4 model on thermal images with a model trained only on the MS COCO data set and a model that was trained on 60% of the obtained thermal images by transfer learning
 - Detection enhancement for each metric: 
   - AO from 15% to 54%
   - AP50 from 28% to 99% 
